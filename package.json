@@ -1,0 +1,24 @@
+{
+    "name": "guillaumemousnier.datawizard.fr",
+    "version": "0.1.0",
+    "description": "Guillaume Mousnier's personnal website",
+    "homepage": "https://guillaumemousnier.datawizard.fr",
+    "private": true,
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index.js",
+        "start:prod": "cross-env NODE_ENV=production npm start"
+    },
+    "author": "mousnier.guillaume@gmail.com",
+    "license": "Mozilla Public License Version 2.0",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^1.19.1"
+    },
+    "devDependencies": {
+        "cross-env": "^5.2.0",
+        "eslint": "^6.1.0",
+        "prettier": "^1.18.2"
+    }
+}
