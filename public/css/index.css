@@ -1,3 +1,7 @@
+:root {
+    font-size: 16px;
+}
+
 html {
     height: 100%;
     font-family: "Fira Code", monospace;
@@ -8,22 +12,40 @@ html {
 
 body {
     height: 100%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 body > header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
 }
 
 body > main {
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
     flex-direction: column;
-    flex-grow: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     max-width: 50em;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -52,7 +74,8 @@ body > footer {
 }
 
 a {
-    color: #28c828;
+    /* color: #28c828; */
+    color: #047f04;
 }
 
 ul {
@@ -87,9 +110,22 @@ details > ul {
     border-radius: 50%;
 }
 
+.icon-img {
+    width: 12px;
+    height: 12px;
+}
+
 .profile-contact {
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: space-around;
     justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
