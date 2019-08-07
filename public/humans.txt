@@ -1,0 +1,12 @@
+/* TEAM */
+Author: Guillaume Mousnier
+Contact: mousnier.guillaume@gmail.com
+Twitter: @datmousse
+From: Lille, France
+
+/* SITE */
+Creation date: 2019-08-06
+Language: French
+Doctype: HTML5
+Repository: https://github.com/Gmousse/guillaumemousnier.datawizard.fr
+License: Mozilla Public License Version 2.0
