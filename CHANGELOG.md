@@ -1,3 +1,15 @@
+# Changelog
+
+version: 0.2.2
+
+type: feature
+
+description:
+
+-   Update
+
+---
+
 version: 0.2.1
 
 type: fix
